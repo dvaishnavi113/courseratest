@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body{
+	background-color: #ffffff;
+    color:#000000; 
+	
+}
+
+.navbar{
+    border-radius: 0%;
+    background-color: black;
+    color: #61122F;
+    }
+
+   
+
+ .glyphicon{
+        font-size: 40px;
+        color:#ffffff; 
+       
+    }
+    
+ #myNavbar ul li a {
+        color: #dedede;
+      text-align: center;
+      font-size: 20px;
+      
+    }
+
+ .navbar-brand{
+    font-size: 40px;
+    color: #ffffff;
+
+    }
+   
+ 
+h1 {
+margin-bottom: 15px;
+text-align: center;
+color: #000000;
+font-size: 50px;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+.container1,.container2,.container3 {
+    position: relative;
+    background-color: rgb(190, 190, 190);
+    border: 2px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+   
+}
+
+.sub1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #b84355;
+
+}
+
+.sub2 {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #dad729d3;
+
+}
+
+.sub3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+     margin: -3px -3px 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(121, 223, 153);
+
+}
+
+
+.row {
+    width: 100%;
+}
+
+/*desktop version*/
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+        flex-basis: 100%;
+    }
+    .navbar{
+        border-radius: 0%;
+    }
+    .navbar.navbar-brand{
+        font-size: 40px;
+        color: #ffffff;
+    
+        }
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-basis: 100%;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-basis: 100%;
+    }
+
+    .navbar{
+        border-radius: 0%;
+    }
+    .navbar.navbar-brand{
+        font-size: 40px;
+        color: #ffffff;
+    
+        }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .navbar.navbar-brand{
+        font-size: 40px;
+        color: #ffffff;
+    
+        }
+   
+    
+}
